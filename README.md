@@ -11,7 +11,7 @@
 
 ## Sobre
 
-Este é um plug-in simples de formulário, que tem como funcionalidade gerar um URL a partir de um elemento da tabela. Podendo habilitar ou não esta função
+Este é um plug-in simples de formulário, que tem como funcionalidade gerar um URL a partir de um elemento da tabela. Podendo habilitar ou não esta função.
 
 ## Uso
 
