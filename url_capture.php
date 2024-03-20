@@ -5,6 +5,7 @@ defined('_JEXEC') or die('Restricted access');
 
 // Require the abstract plugin class
 require_once COM_FABRIK_FRONTEND . '/models/plugin-form.php';
+use Joomla\CMS\Uri\Uri;
 
 class PlgFabrik_FormUrl_capture extends PlgFabrik_Form
 {
