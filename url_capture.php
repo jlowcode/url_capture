@@ -55,8 +55,8 @@ class PlgFabrik_FormUrl_capture extends PlgFabrik_Form
     }
 
     protected function getUrl() {
-        $app = $this->app;
-        $baseLink = $app->getDocument()->base;
+        $uri = Uri::getInstance();
+        $baseLink = $uri->toString();
 
         $formModel = $this->getModel();
         $formId = $formModel->getId();
